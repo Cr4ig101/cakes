@@ -1,0 +1,101 @@
+.banner {
+  background-color: #734046;
+  margin: 0 80px;
+  position: relative;
+  height: 350px;
+  text-align: center;
+}
+.mainlogo {
+  position: absolute;
+  left: 25px;
+  top: 20px;
+  height: 400px;
+  width: auto;
+  transform: rotate(350deg);
+}
+.about {
+  background-color: #ffeebb;
+  margin: 0 80px;
+}
+.aboutme {
+  margin: 0 auto;
+  height: 17rem;
+  line-height: 2;
+  width: 60%;
+}
+.aboutmepic {
+  border-radius: 30px;
+  float: right;
+  width: auto;
+  height: 250px;
+  margin-left: 2rem;
+}
+.line {
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+  color: grey;
+  margin: 0 auto;
+  display: block;
+}
+.hr-div {
+  background-color: #ffeebb;
+  margin: 0 80px;
+  padding-top: 30px;
+}
+.cake-pics {
+  background-color: #734046;
+  margin: 0 80px;
+}
+.cake-pic {
+  height: 280px;
+  width: auto;
+}
+.cake-pic:hover {
+  transform: scale(1.5);
+}
+.cake-table {
+  margin: 0 auto;
+  border-spacing: 15px;
+}
+.contact {
+  background-color: #ffeebb;
+  margin: 0 80px;
+  padding-bottom: 40px;
+}
+.review {
+  background-color: #734046;
+  margin: 0 80px;
+}
+body {
+  margin: 0;
+  background-image: url(../images/small-cake-bg.jpg);
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  left: 450px;
+  top: 200px;
+  font-size: 3rem;
+  color: #ffeebb;
+}
+h2 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  padding: 3rem 0 1rem;
+  font-size: 2.5rem;
+}
+h3 {
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+}
+p {
+  text-align: left;
+  margin: auto;
+  color: grey;
+}
