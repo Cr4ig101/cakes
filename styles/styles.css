@@ -38,20 +38,49 @@
   margin: 0 auto;
   display: block;
 }
-.hr-div {
-  background-color: #ffeebb;
-  margin: 0 80px;
-  padding-top: 30px;
-}
-.cake-pics {
+.gallary {
   background-color: #734046;
+  color: #ffeebb;
   margin: 0 80px;
+  height: 330px;
+  position: relative;
 }
-.cake-pic {
-  height: 280px;
+.cake-div {
+  position: relative;
+}
+.cake-h3 {
+  position: absolute;
+  left: 300px;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+.cake-button {
+  height: 100px;
   width: auto;
+  position: absolute;
+  left: 280px;
+  top: 55px;
 }
-.cake-pic:hover {
+.cake-button:hover {
+  transform: scale(1.5);
+}
+.cupcake-div {
+  position: relative;
+}
+.cupcake-h3 {
+  position: absolute;
+  right: 300px;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+.cupcake-button {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  right: 300px;
+  top: 55px;
+}
+.cupcake-button:hover {
   transform: scale(1.5);
 }
 .cake-table {
@@ -62,6 +91,9 @@
   background-color: #ffeebb;
   margin: 0 80px;
   padding-bottom: 40px;
+}
+.contact-form {
+  text-align: center;
 }
 .review {
   background-color: #734046;
