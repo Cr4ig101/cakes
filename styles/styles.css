@@ -38,55 +38,23 @@
   margin: 0 auto;
   display: block;
 }
+
+
+
 .gallary {
   background-color: #734046;
   color: #ffeebb;
   margin: 0 80px;
-  height: 330px;
   position: relative;
+  padding: 0 10px;
 }
-.cake-div {
-  position: relative;
-}
-.cake-h3 {
-  position: absolute;
-  left: 300px;
-  font-size: 2rem;
-  margin: 0 auto;
-}
-.cake-button {
-  height: 100px;
-  width: auto;
-  position: absolute;
-  left: 280px;
-  top: 55px;
-}
-.cake-button:hover {
-  transform: scale(1.5);
-}
-.cupcake-div {
-  position: relative;
-}
-.cupcake-h3 {
-  position: absolute;
-  right: 300px;
-  margin: 0 auto;
-  font-size: 2rem;
-}
-.cupcake-button {
-  height: 100px;
-  width: auto;
-  position: absolute;
-  right: 300px;
-  top: 55px;
-}
-.cupcake-button:hover {
-  transform: scale(1.5);
-}
-.cake-table {
-  margin: 0 auto;
-  border-spacing: 15px;
-}
+
+
+
+
+
+
+
 .contact {
   background-color: #ffeebb;
   margin: 0 80px;
@@ -129,5 +97,5 @@ h3 {
 p {
   text-align: left;
   margin: auto;
-  color: grey;
+  color: black;
 }
