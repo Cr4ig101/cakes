@@ -9,7 +9,8 @@
   position: absolute;
   left: 25px;
   top: 20px;
-  height: 400px;
+  height: 110%;
+/*  height: 400px; */
   width: auto;
   transform: rotate(350deg);
 }
@@ -19,9 +20,9 @@
 }
 .aboutme {
   margin: 0 auto;
-  height: 17rem;
   line-height: 2;
   width: 60%;
+  padding-bottom: 1.5rem;
 }
 .aboutmepic {
   border-radius: 30px;
@@ -46,14 +47,12 @@
   color: #ffeebb;
   margin: 0 80px;
   position: relative;
-  padding: 0 10px;
+  padding-left: 30px;
 }
-
-
-
-
-
-
+.p-light {
+  color: #ffeebb;
+  text-align: center;
+}
 
 .contact {
   background-color: #ffeebb;
@@ -66,7 +65,50 @@
 .review {
   background-color: #734046;
   margin: 0 80px;
+  color: #ffeebb;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 0.75rem;
 }
+.ulist {
+  list-style-type:none;
+  margin: 0;
+  padding: 10px 0 40px;
+  text-align: center;
+}
+.footer {
+  background-color: #ffeebb;
+  margin: 0 80px;
+  padding: 2rem 0 3rem;
+  position: relative;
+  text-align: center;
+}
+.social-fb {
+  height: 2rem;
+  width: auto;
+  padding-right: 1rem;
+}
+.social-inst {
+  height: 2rem;
+  width: auto;
+  padding-left: 1rem;
+}
+.social-inst:hover {
+  transform: scale(1.25);
+}
+.social-fb:hover {
+  transform: scale(1.25);
+}
+.copyright {
+  font-size: 0.75rem;
+  color: grey;
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+  margin-bottom: 0
+}
+
+
 body {
   margin: 0;
   background-image: url(../images/small-cake-bg.jpg);
@@ -84,15 +126,15 @@ h1 {
 h2 {
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  margin: 0;
+  margin: 0 auto;
   padding: 3rem 0 1rem;
   font-size: 2.5rem;
 }
 h3 {
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
-  position: absolute;
   font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
 }
 p {
   text-align: left;
