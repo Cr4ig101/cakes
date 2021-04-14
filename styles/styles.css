@@ -2,19 +2,29 @@
   background-color: #734046;
   margin: 0 80px;
   position: relative;
-  height: 350px;
+  height: 450px;
   text-align: center;
+  border-left: 0.25px solid;
+  border-right: 0.25px solid;
+}
+.navbar {
+  background-color: #ffeebb;
+  padding: 0;
+  border-left: 0.25px solid;
+  border-right: 0.25px solid;
+  border-color: grey;
 }
 .mainlogo {
   position: absolute;
-  left: 25px;
-  top: 20px;
-  height: 110%;
-/*  height: 400px; */
+  left: 45px;
+  top: -5px;
+  height: 450px;
   width: auto;
   transform: rotate(350deg);
 }
 .about {
+  border-left: 0.25px solid;
+  border-right: 0.25px solid;
   background-color: #ffeebb;
   margin: 0 80px;
 }
@@ -22,7 +32,7 @@
   margin: 0 auto;
   line-height: 2;
   width: 60%;
-  padding-bottom: 1.5rem;
+  padding-bottom: 4rem;
 }
 .aboutmepic {
   border-radius: 30px;
@@ -39,10 +49,9 @@
   margin: 0 auto;
   display: block;
 }
-
-
-
 .gallary {
+  border-left: 0.25px solid;
+  border-right: 0.25px solid;
   background-color: #734046;
   color: #ffeebb;
   margin: 0 80px;
@@ -53,8 +62,9 @@
   color: #ffeebb;
   text-align: center;
 }
-
 .contact {
+  border-left: 0.25px solid;
+  border-right: 0.25px solid;
   background-color: #ffeebb;
   margin: 0 80px;
   padding-bottom: 40px;
@@ -64,6 +74,8 @@
 }
 .review {
   background-color: #734046;
+  border-left: 0.25px solid;
+  border-right: 0.25px solid;
   margin: 0 80px;
   color: #ffeebb;
   font-size: 1rem;
@@ -78,6 +90,8 @@
 }
 .footer {
   background-color: #ffeebb;
+  border-left: 0.25px solid;
+  border-right: 0.25px solid;
   margin: 0 80px;
   padding: 2rem 0 3rem;
   position: relative;
@@ -115,12 +129,11 @@ body {
   text-align: center;
 }
 h1 {
-  margin: 0;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  left: 450px;
-  top: 200px;
-  font-size: 3rem;
+  right: 120px;
+  top: 230px;
+  font-size: 2.5rem;
   color: #ffeebb;
 }
 h2 {
