@@ -1,32 +1,21 @@
 .banner {
-  background-color: #734046;
-  margin: 0 80px;
-  position: relative;
-  height: 450px;
-  text-align: center;
-  border-left: 0.25px solid;
-  border-right: 0.25px solid;
+  background-color: white;
+  height: 30rem;
 }
 .navbar {
-  background-color: #ffeebb;
-  padding: 0;
-  border-left: 0.25px solid;
-  border-right: 0.25px solid;
-  border-color: grey;
+  position: block;
+  background-color: #F9C5D5;
 }
 .mainlogo {
-  position: absolute;
-  left: 45px;
-  top: -5px;
-  height: 450px;
+  position: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  height: 410px;
   width: auto;
-  transform: rotate(350deg);
 }
 .about {
-  border-left: 0.25px solid;
-  border-right: 0.25px solid;
-  background-color: #ffeebb;
-  margin: 0 80px;
+  background-color: #F9C5D5;
 }
 .aboutme {
   margin: 0 auto;
@@ -50,11 +39,8 @@
   display: block;
 }
 .gallary {
-  border-left: 0.25px solid;
-  border-right: 0.25px solid;
   background-color: #734046;
   color: #ffeebb;
-  margin: 0 80px;
   position: relative;
   padding-left: 30px;
 }
@@ -63,10 +49,7 @@
   text-align: center;
 }
 .contact {
-  border-left: 0.25px solid;
-  border-right: 0.25px solid;
   background-color: #ffeebb;
-  margin: 0 80px;
   padding-bottom: 40px;
 }
 .contact-form {
@@ -74,9 +57,6 @@
 }
 .review {
   background-color: #734046;
-  border-left: 0.25px solid;
-  border-right: 0.25px solid;
-  margin: 0 80px;
   color: #ffeebb;
   font-size: 1rem;
   text-align: center;
@@ -90,9 +70,6 @@
 }
 .footer {
   background-color: #ffeebb;
-  border-left: 0.25px solid;
-  border-right: 0.25px solid;
-  margin: 0 80px;
   padding: 2rem 0 3rem;
   position: relative;
   text-align: center;
@@ -122,14 +99,12 @@
   margin-bottom: 0
 }
 
-
 body {
   margin: 0;
-  background-image: url(../images/small-cake-bg.jpg);
   text-align: center;
 }
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
   position: absolute;
   right: 120px;
   top: 230px;
@@ -138,7 +113,7 @@ h1 {
 }
 h2 {
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
   margin: 0 auto;
   padding: 3rem 0 1rem;
   font-size: 2.5rem;
