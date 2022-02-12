@@ -1,35 +1,64 @@
 .banner {
   background-color: white;
-  height: 30rem;
+  height: 28rem;
 }
-.navbar {
-  position: block;
-  background-color: #F9C5D5;
-}
+
 .mainlogo {
-  position: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
-  height: 410px;
+  height: 380px;
   width: auto;
 }
-.about {
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 2.5rem;
+  overflow: hidden;
   background-color: #F9C5D5;
 }
+
+.navli {
+  display: inline-block;
+}
+
+li a {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  background-color: #F9C5D5;
+  height: 34rem;
+}
+
 .aboutme {
   margin: 0 auto;
   line-height: 2;
-  width: 60%;
+  width: 50%;
   padding-bottom: 4rem;
 }
+
 .aboutmepic {
   border-radius: 30px;
   float: right;
   width: auto;
-  height: 250px;
-  margin-left: 2rem;
+  height: 310px;
+  margin-left: 3rem;
 }
+
 .line {
   border-style: dotted none none;
   border-width: 5px;
@@ -38,58 +67,72 @@
   margin: 0 auto;
   display: block;
 }
+
 .gallary {
   background-color: #734046;
   color: #ffeebb;
   position: relative;
   padding-left: 30px;
 }
+
 .p-light {
   color: #ffeebb;
   text-align: center;
 }
+
 .contact {
-  background-color: #ffeebb;
+  background-color: #F9C5D5;
   padding-bottom: 40px;
 }
+
 .contact-form {
   text-align: center;
 }
+
 .review {
-  background-color: #734046;
-  color: #ffeebb;
+  background-color: #FEE3EC;
+  color: black;
   font-size: 1rem;
   text-align: center;
   padding-top: 0.75rem;
 }
+
 .ulist {
-  list-style-type:none;
+  list-style-type: none;
   margin: 0;
   padding: 10px 0 40px;
   text-align: center;
+  background-color: #FEE3EC;
+  color: black;
 }
+
 .footer {
-  background-color: #ffeebb;
+  background-color: #FEE3EC;
   padding: 2rem 0 3rem;
   position: relative;
   text-align: center;
 }
+
 .social-fb {
   height: 2rem;
   width: auto;
   padding-right: 1rem;
 }
+
 .social-inst {
   height: 2rem;
   width: auto;
   padding-left: 1rem;
 }
+
 .social-inst:hover {
   transform: scale(1.25);
 }
+
 .social-fb:hover {
   transform: scale(1.25);
 }
+
 .copyright {
   font-size: 0.75rem;
   color: grey;
@@ -103,6 +146,7 @@ body {
   margin: 0;
   text-align: center;
 }
+
 h1 {
   font-family: 'Poppins', sans-serif;
   position: absolute;
@@ -111,6 +155,7 @@ h1 {
   font-size: 2.5rem;
   color: #ffeebb;
 }
+
 h2 {
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -118,12 +163,14 @@ h2 {
   padding: 3rem 0 1rem;
   font-size: 2.5rem;
 }
+
 h3 {
   margin: 0 auto;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
 }
+
 p {
   text-align: left;
   margin: auto;
