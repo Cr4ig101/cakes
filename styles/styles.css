@@ -58,9 +58,14 @@ li a:hover {
 .aboutmepic {
   float: right;
   width: auto;
-  height: 390px;
+  height: 430px;
   padding-bottom: 1rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
+}
+
+.promo {
+  background-color: #F9C5D5;
+  height: 100%;
 }
 
 .line {
@@ -176,7 +181,7 @@ h3 {
 }
 
 p {
-  text-align: center;
+  text-align: left;
   margin: auto;
   color: black;
 }
