@@ -56,7 +56,7 @@ li a:hover {
 }
 
 .aboutmepic {
-  float: right;
+  float: center;
   width: auto;
   height: 430px;
   padding-bottom: 1rem;
