@@ -1,6 +1,6 @@
 .banner {
   background-color: white;
-  height: 28rem;
+  height: 29rem;
 }
 
 .mainlogo {
@@ -8,37 +8,39 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
-  height: 400px;
+  height: 450px;
   width: auto;
 }
 
 .navul {
   border: 1px grey;
-  border-style: solid none solid;
+  border-style: none;
   list-style-type: none;
   text-align: center;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FEE3EC;
+  background-color: white;
 }
 
 .navli {
   display: inline-block;
+  font-family: 'Dancing Script', cursive;
 }
 
 li a {
-  color: black;
+  color: #F2789F;
   text-align: center;
-  font-size: 2rem;
-  padding: 14px 16px;
+  font-size: 3.5rem;
+  padding: 14px 2rem;
   text-decoration: none;
+  font-weight: 500;
 }
 
 li a:hover {
   background-color: white;
   text-decoration: none;
-  color: black;
+  color: #46322B;
 }
 
 .about {
@@ -49,22 +51,28 @@ li a:hover {
 .aboutme {
   margin: 0 auto;
   line-height: 1.6rem;
-  width: 50%;
+  width: 100%;
   padding-bottom: 4rem;
   font-size: 1.5rem;
   text-align: left;
 }
 
 .aboutmepic {
-  float: center;
-  width: auto;
-  height: 430px;
+  width: 100%;
+  height: auto;
   padding-bottom: 2rem;
 }
 
 .promo {
-  background-color: #F9C5D5;
+  background-color: white;
   height: 100%;
+}
+
+.promo1 {
+  width: 80%;
+  height: auto;
+  padding-bottom: 4rem;
+  margin: 0 auto;
 }
 
 .line {
