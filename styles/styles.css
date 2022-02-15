@@ -44,6 +44,11 @@ li a:hover {
   height: 100%;
 }
 
+.carousel-inner {
+  background-color: #F9C5D5;
+  padding-bottom: 2rem;
+}
+
 .aboutme {
   margin: 0 auto;
   line-height: 1.6rem;
@@ -60,10 +65,10 @@ li a:hover {
 }
 
 .p-about {
-  Width: 80%;
+  Width: 70%;
   background-color: #F9C5D5;
   text-align: center;
-  color: white;
+  color: #46322B;
   font-size: 1.5rem;
 }
 
@@ -73,13 +78,35 @@ li a:hover {
 }
 
 .promo1 {
-  width: 80%;
+  width: 70%;
   height: auto;
   margin: 6rem auto;
 }
 
-.carousel-inner {
-  background-color: #F9C5D5;
+.row {
+ background-color: #F9C5D5;
+ height: auto;
+}
+
+.pic-gallary {
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.pic-gallary:hover {
+  opacity: 1;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #46322B;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
 }
 
 .contact {
