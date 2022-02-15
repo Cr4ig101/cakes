@@ -59,6 +59,14 @@ li a:hover {
   padding-bottom: 2rem;
 }
 
+.p-about {
+  Width: 80%
+  color: #F9C5D5;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
 .promo {
   background-color: white;
   height: 100%;
@@ -72,11 +80,6 @@ li a:hover {
 
 .carousel-inner {
   background-color: #F9C5D5;
-}
-
-.p-light {
-  color: #ffeebb;
-  text-align: center;
 }
 
 .contact {
