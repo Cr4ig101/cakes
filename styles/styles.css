@@ -88,13 +88,13 @@ li a:hover {
  height: auto;
 }
 
-.pic-gallary {
+.pic-gallery {
   height: 100%;
   width: 100%;
   opacity: 0.6;
 }
 
-.pic-gallary:hover {
+.pic-gallery:hover {
   opacity: 1;
 }
 
@@ -123,7 +123,7 @@ li a:hover {
   color: black;
   font-size: 1rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .ulist {
@@ -137,7 +137,7 @@ li a:hover {
 
 .footer {
   background-color: #FEE3EC;
-  padding: 0 0 3rem;
+  padding: 1rem 0 3rem;
   position: relative;
   text-align: center;
 }
