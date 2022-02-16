@@ -11,9 +11,7 @@
 }
 
 .navul {
-  border: 1px grey;
-  border-style: none;
-  list-style-type: none;
+  padding: 0;  
   text-align: center;
   overflow: hidden;
   background-color: white;
