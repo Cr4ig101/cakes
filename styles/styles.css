@@ -52,7 +52,7 @@ li a:hover {
 }
 
 .d-inline {
-  width: 30%;
+  width: 35%;
   height: auto;
 }
 
@@ -90,7 +90,7 @@ li a:hover {
 }
 
 .pic-gallery {
-  height: 80vh;
+  height: 100%;
   width: 100%;
   opacity: 0.6;
 }
