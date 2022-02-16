@@ -104,6 +104,11 @@ li a:hover {
   font-family: 'Dancing Script', cursive;
 }
 
+.info-pics {
+  height: 100%;
+  width: 100%;
+}
+
 .contact {
   background-color: #F9C5D5;
   padding-bottom: 40px;
