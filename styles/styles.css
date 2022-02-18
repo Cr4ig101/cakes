@@ -10,32 +10,90 @@
   width: auto;
 }
 
-.navul {
+#nav {
   padding: 0;
+  list-style: none inside;
   text-align: center;
-  overflow: hidden;
   background-color: white;
 }
 
-.navli {
+#nav li {
   display: inline-block;
   font-family: 'Dancing Script', cursive;
 }
 
-li a {
+
+#nav li a {
+  display: block;
   color: #F2789F;
   text-align: center;
   font-size: 3.5rem;
-  padding: 14px 2rem;
+  padding: 0 2rem;
   text-decoration: none;
   font-weight: 500;
 }
 
-li a:hover {
+#nav li li {
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+
+#nav li li a {
+  background-color: white;
+  color: #F2789F;
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+#nav li li a:hover {
+  color: #46322B;
+}
+
+#nav ul {
+  display: none;
+}
+
+#nav li a:hover {
+  display: block;
   background-color: white;
   text-decoration: none;
   color: #46322B;
 }
+
+
+#nav li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .about {
   background-color: #F9C5D5;
