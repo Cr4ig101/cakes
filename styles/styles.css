@@ -42,10 +42,9 @@
 #nav li li a {
   background-color: white;
   color: #F2789F;
-  text-align: center;
-  font-size: 2rem;
+  text-align: left;
+  font-size: 2.8rem;
 }
-
 
 #nav li li a:hover {
   color: #46322B;
@@ -62,38 +61,10 @@
   color: #46322B;
 }
 
-
 #nav li:hover ul {
   display: block;
   position: absolute;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .about {
   background-color: #F9C5D5;
@@ -102,20 +73,23 @@
 
 .row {
   margin: 0;
+  padding-bottom: 4rem;
+  background-color: #F9C5D5;
 }
 
 .carousel-inner {
   background-color: #F9C5D5;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .d-inline {
-  width: 35%;
+  width: 40%;
   height: auto;
 }
 
 .aboutme {
-  margin: 0 auto;
+  margin: 0;
   line-height: 1.6rem;
   width: 100%;
   padding-bottom: 4rem;
@@ -124,9 +98,9 @@
 }
 
 .p-about {
-  Width: 70%;
+  Width: 40%;
   background-color: #F9C5D5;
-  text-align: center;
+  text-align: left;
   color: #46322B;
   font-size: 1.5rem;
 }
@@ -214,13 +188,6 @@
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
 .contact {
   background-color: #F9C5D5;
   padding-bottom: 40px;
@@ -245,6 +212,49 @@
   text-align: center;
   background-color: #FEE3EC;
   color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #F9C5D5;
+  padding: 20px;
+}
+
+.background-container {
+  background-color: #F9C5D5;
+}
+
+.form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
 .footer {
