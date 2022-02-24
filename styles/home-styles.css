@@ -1,0 +1,273 @@
+.banner {
+  background-color: white;
+  height: 25rem;
+}
+
+.mainlogo {
+  display: block;
+  margin: 2rem auto;
+  height: 350px;
+  width: auto;
+}
+
+#nav {
+  padding: 0;
+  list-style: none inside;
+  text-align: center;
+  background-color: white;
+}
+
+#nav li {
+  display: inline-block;
+  font-family: 'Glacial Indifference', sans-serif;
+/*  font-family: 'Amsterdam', sans-serif;
+  font-family: 'Glacial Indifference', sans-serif;
+    font-family: 'Dancing Script', cursive;*/
+}
+
+
+#nav li a {
+  display: block;
+  color: #F2789F;
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 0 2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#nav li li {
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+
+#nav li li a {
+  background-color: white;
+  color: #F2789F;
+  text-align: left;
+  font-size: 2.8rem;
+}
+
+#nav li li a:hover {
+  color: #46322B;
+}
+
+#nav ul {
+  display: none;
+}
+
+#nav li a:hover {
+  display: block;
+  background-color: white;
+  text-decoration: none;
+  color: #46322B;
+}
+
+#nav li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+.about {
+  background-color: #F9C5D5;
+  height: 100%;
+}
+
+.row {
+  margin: 0;
+  background-color: #F9C5D5;
+}
+
+.carousel-inner {
+  background-color: #F9C5D5;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.d-inline {
+  width: 40%;
+  height: auto;
+}
+
+.aboutme {
+  margin: 0;
+  line-height: 1.6rem;
+  width: 100%;
+  padding-bottom: 4rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.p-about {
+  Width: 40%;
+  background-color: #F9C5D5;
+  text-align: center;
+  color: #46322B;
+  font-size: 1.5rem;
+  font-family: 'Glacial Indifference', sans-serif;
+}
+
+.pic-gallery {
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.pic-gallery:hover {
+  opacity: 1;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #46322B;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+
+.info-pics {
+  height: 100%;
+  width: 100%;
+}
+
+.review {
+  background-color: #FEE3EC;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.ulist {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 40px;
+  text-align: center;
+  background-color: #FEE3EC;
+  color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #F9C5D5;
+  padding: 20px;
+}
+
+.contact {
+  color: white;
+  text-align: left;
+  text-shadow: #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px;
+  font-size: 5rem;
+  padding-left: 230px;
+  font-family: 'Glacial Indifference', sans-serif;
+}
+
+.background-container {
+  background-color: #F9C5D5;
+}
+
+.form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  font-family: 'Glacial Indifference', sans-serif;
+  font-size: 1.5rem;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit], select, button {
+  background-color: #46322B;
+  font-size: 1rem;
+  font-family: 'Glacial Indifference', sans-serif;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #FEE3EC;
+  padding: 1rem 0 3rem;
+  position: relative;
+  text-align: center;
+}
+
+.social-fb {
+  height: 2rem;
+  width: auto;
+  padding-right: 1rem;
+}
+
+.social-inst {
+  height: 2rem;
+  width: auto;
+  padding-left: 1rem;
+}
+
+.social-inst:hover {
+  transform: scale(1.25);
+}
+
+.social-fb:hover {
+  transform: scale(1.25);
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: grey;
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+  margin-bottom: 0
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  right: 120px;
+  top: 230px;
+  font-size: 2.5rem;
+  color: #ffeebb;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  padding: 3rem 0 1rem;
+  font-size: 2.5rem;
+}
+
+h3 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+p {
+  text-align: left;
+  margin: auto;
+  color: black;
+}
