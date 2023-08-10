@@ -1,21 +1,64 @@
-.banner {
-  background-color: white;
-  height: 25rem;
-}
-
 .mainlogo {
   display: block;
-  margin: 2rem auto;
-  height: 350px;
+  margin: 0 0 0 3rem;
+  padding-bottom: 0;
+  height: 9rem;
   width: auto;
 }
 
-#nav {
-  padding: 0;
-  list-style: inside;
-  text-align: center;
-  background-color: white;
+.navbar-brand .navbar {
+  padding-bottom: 0;
 }
+
+.collapse {
+  justify-content: 1rem;
+}
+
+.navbar-nav {
+  font-size: 18px;
+}
+
+.navbar-nav li {
+  padding: 1rem;
+}
+
+.social-inst-li {
+  position: absolute;
+  left: 87%;
+  top: 4rem;
+}
+
+.social-inst {
+  height: 2rem;
+  width: auto;
+}
+
+.social-fb-li {
+  position: absolute;
+  left: 90%;
+  top: 4rem;
+}
+
+.social-fb {
+  height: 2rem;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #nav li {
   display: inline-block;
@@ -222,23 +265,23 @@ input[type=submit], select, button {
   text-align: center;
 }
 
-.social-fb {
+.social-fb-footer {
   height: 2rem;
   width: auto;
   padding-right: 1rem;
 }
 
-.social-inst {
+.social-inst-footer {
   height: 2rem;
   width: auto;
   padding-left: 1rem;
 }
 
-.social-inst:hover {
+.social-inst-footer:hover {
   transform: scale(1.25);
 }
 
-.social-fb:hover {
+.social-fb-footer:hover {
   transform: scale(1.25);
 }
 
