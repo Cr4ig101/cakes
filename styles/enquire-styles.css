@@ -62,60 +62,6 @@ a {
   width: auto;
 }
 
-/* Start of the box's 
-   vics color
-*/
-
-.text-block-4 {
-  background-color: #FFF0F5; /* #FFC0D9; */
-}
-
-.text-block-3 {
-  background-color: #FFDDCC;
-}
-
-.text-block-2 {
-  background-color: #FFCCCC;
-}
-
-.text-block-1 {
-  background-color: #FFC0D9;
-}
-
-.box-image {
-  margin: 0;
-  object-fit: cover;
-}
-
-.box {
-  position: absolute;
-  margin-top: 20%;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.box-txt {
-  margin-top: 6rem;
-  color: black;
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Glacial Indifference', sans-serif;
-}
-
-.box-h-1, .box-h-2, .box-h-3, .box-h-4 {
-  color: black;
-  font-size: 80px;
-  text-align: center;
-  font-family: logo-name-font;
-} 
-
-.box-h-4 {
-  font-size: 71px;
-}
-
-.col-lg-6, .col-md-12 {
-  padding: 0;
-}
 
 .button-more {
   background-color: transparent;
@@ -137,7 +83,6 @@ a {
   cursor: pointer;
   box-shadow: 0px 0px 0px 1px black
 }
-
 
 
 .background-container {
