@@ -8,7 +8,9 @@
 }
 
 .img-box {
-  padding: 1rem 0;
+  padding: 1rem 0 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .img-txt-box {
@@ -25,10 +27,9 @@ h1 {
 }
 
 .cake-img {
-  height: 60%;
-  width: auto;
-  object-fit: contain;
-  border: #FFFAF4 1rem solid;
+  height: 420px;
+  width: 340px;
+  border: #FFFAF4 1.5rem solid;
 }
 
 .row {
@@ -46,15 +47,6 @@ h1 {
   padding-bottom: 0;
   height: 8rem;
   width: auto;
-}
-
-.nav-background {
-/*  background-image: url("../images/pink_stripe.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #FFC0D9;*/
-  background-color: #FFFAF4;
-  height: 8rem;
 }
 
 .navbar, .navbar-brand {

@@ -17,13 +17,13 @@
   <link href="http://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
   <link href="http://fonts.cdnfonts.com/css/playlist" rel="stylesheet">
   <link href="http://fonts.cdnfonts.com/css/amsterdam-2" rel="stylesheet">
-  <link rel="stylesheet" href="styles/home-styles.css">
+  <link rel="stylesheet" href="styles/enquire-styles.css">
   <meta name="viewpoint" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light nav-background">
-  <a class="navbar-brand" href="./index.html"><img class="mainlogo" src="images/reverse-logo.svg"></a>
+  <nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="./index.html"><img class="mainlogo" src="images/logo-round.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -34,9 +34,9 @@
           Cakes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="./cakes.html">Custom Celebration Cakes</a>
-          <a class="dropdown-item" href="./number-cakes.html">Number Cakes</a>
-          <a class="dropdown-item" href="./ready-to-order.html">Ready to Order</a>
+          <a class="dropdown-item" href="./cakes.html#cakes">Custom Celebration Cakes</a>
+          <a class="dropdown-item" href="./cakes.html#ncakes">Number Cakes</a>
+          <a class="dropdown-item" href="./cakes.html#rto">Ready to Order</a>
         </div>
       </li>
       <li class="nav-item">
@@ -68,9 +68,9 @@
     </ul>
   </div>
 </nav>
-
-  <div class="enquire-text">
-    <h1>Page Heading</h1>
+ <div class="enquire-form">
+   <div class="enquire-text">
+    <h1>Enquiry Form</h1>
     <p><br>If you could fill out the questions below this will help me to quote you and get the cake just right for you. As soon as I receive the information I will be able to get to provide you with an estimated quote. If you are happy with this and would like to go ahead I will provide you with an invoice and a none refundable deposit of 50% is payable to see her your date. Once paid I will come up with a design along with a sketch and mood board.
       Please allow 72 hours for me to provide this to you.
       <br><br>
@@ -87,22 +87,27 @@
       Please note all my cakes are made using buttercream. I sometimes use fondant for small details but I do not cover or decorate my cakes with fondant.
       <br>
       </p>
+   </div>
   </div>
 
   <div class="background-container">
    <div class="container">
      <form class="form" action="contact-form.php" method="post">
-      <input type="text" name="name" placeholder="Your name..">
-      <input type="text" name="mail" placeholder="Your email..">
-      <input type="text" name="number" placeholder="Your Contact Number..">
+      <p>Your Name</p>
+      <input type="text" name="name">
+      <p>Email Address</p>
+      <input type="text" name="mail">
+      <p>Contact Number</p>
+      <input type="text" name="number">
       <p>Enter the date you want your cake to be made for</p>
       <input type="date" name="date">
       
       <p><br>Do you require delivery of the cake?<br> Yes <input type="checkbox" name="delivery-yes" placeholder=""> No <input type="checkbox" name="delivery-no" placeholder=""> </p>
-      <p>If yes, please give me your adress</p>
+      <p>If yes, please enter your delivery address</p>
       <textarea name="address" placeholder=""></textarea>
       
-      <p>Cake size or number of portions you would like<br> 
+      <p>Cake size or number of portions you would like
+      <br> 
         <input type="checkbox" name="4inch"> 4 inch serves 8-12,<br>
         <input type="checkbox" name="5inch"> 5 inch serves 18,<br>
         <input type="checkbox" name="6inch"> 6inch serves 24,<br>
@@ -129,7 +134,7 @@
       <hr class="solid">
       <p>Colour scheme and brief of what you require:</p>
       <textarea name="brief"></textarea>
-      <p>Any additional extras<br>
+      <p>Additional extras<br>
       Fillings (lemon curd,jam, biscoff): 
       Chocolate drip:
       Sprinkles:
@@ -140,11 +145,15 @@
       Figures:
       Cake toppers:
       </p>
-      <input type="text" name="subject" placeholder="Subject">
-      <textarea name="message" placeholder="Message"></textarea>
-      
-      <button type="submit" name="submit">Send</button>
-      <input type="reset">
+      <textarea name="message"></textarea>
+      <p>Allergies or intolerances?</p>
+      <textarea name="message"></textarea>
+      <p>Do you have a budget in mind?</p>
+      <input type="number" name="budget">
+      <br>
+      <br>
+      <button class="button-enquire" type="submit" name="submit">Send</button>
+      <input class="reset" type="reset">
      </form>
    </div>
   </div>
