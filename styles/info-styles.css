@@ -1,3 +1,30 @@
+.carousel_slide {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel_slide p {
+  font-family: logo-name-font;
+  float: left;
+  font-size: 3rem;
+}
+
+.carousel-control-prev {
+  top: 50rem;
+}
+
+.info-background {
+  background-color: #F9C5D5;
+}
+
+.title-box h1 {
+  font-family: logo-name-font;
+  font-size: 5rem;
+  padding: 5rem 0;
+ }
+
 @font-face {
   font-family: logo-name-font;
   src: url(../amsterdam-two-ttf.ttf);

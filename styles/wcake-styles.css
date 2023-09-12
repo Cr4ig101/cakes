@@ -3,7 +3,7 @@
 }
 
 .background-image {
-  width: 80%;
+  width: 85%;
   object-fit: contain;
   height: auto;
   margin-left: auto;
@@ -66,8 +66,6 @@
 
 .navbar-nav {
   font-size: 18px;
-  font-weight: 500;
-  color: #F9C5D5;
 }
 
 .navbar-nav li {

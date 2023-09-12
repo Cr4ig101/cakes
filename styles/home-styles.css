@@ -53,6 +53,29 @@ a {
   width: auto;
 }
 
+.banner {
+  position: relative;
+  background-image: url(../images/circle-strip-pink.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 6rem;
+}
+
+.banner-button {
+  position: absolute;
+  right: 18rem;
+  top: 3rem;
+}
+
+.banner-txt {
+  position: absolute;
+  font-size: 2rem;
+  font-family: 'Glacial Indifference', sans-serif;
+}
+
+
+
 /* Start of the box's 
    vics color
 */
@@ -128,6 +151,17 @@ a {
   cursor: pointer;
   box-shadow: 0px 0px 0px 1px black
 }
+
+.banner-button {
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-family: 'Glacial Indifference', sans-serif;
+  color: black;
+  padding: 5px 36px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
 
 .background-container {
   background-color: #F9C5D5;

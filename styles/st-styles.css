@@ -1,67 +1,45 @@
-.enquire-form {
+.title-box {
   background-color: #F9C5D5;
 }
 
-.enquire-text {
-  background-color: inherit;
-  width: 70%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 2rem;;
+.col-5 {
+  padding: 0;
 }
 
-.enquire-text h1 {
-  font-family: logo-name-font;
-  padding: 3rem 0;
-  font-size: 3rem;
+.title-box h1 {
+ font-family: logo-name-font;
+ font-size: 5rem;
+ padding-top: 7rem;
 }
 
-.enquire-text p {
-  font-size: 1.3rem;
+.title-box p {
+  padding: 6rem 0;
+  font-size: 1.5rem;
+  width: 80%;
+  margin: auto auto;
 }
 
-.background-container {
-  background-color: #FEE3EC;
+.title-img {
+  padding: 0;
 }
 
-.container {
-  margin-top: 2rem;
-  padding: 3rem 0;
-  width: 70%;
-  background-color: #F9C5D5;
-}
-
-.form {
-  width: 70%; 
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-}
-
-.form p {
-  font-size: 1.2rem;
-}
-
-input[type=reset], select {
+.button-enquire {
   background-color: transparent;
   font-size: 1.5rem;
   font-family: 'Glacial Indifference', sans-serif;
   color: black;
-  padding: 2px 25px;
-  margin-left: 20px;
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-.button-enquire {
-  background-color: black;
-  font-size: 1.5rem;
-  font-family: 'Glacial Indifference', sans-serif;
-  color: white;
-  padding: 2px 25px;
+  padding: 5px 36px;
   border: 1px solid white;
   cursor: pointer;
   box-shadow: 0px 0px 0px 1px black
+}
+
+.row {
+  margin: 0;
+}
+
+.img-box {
+  padding: 12px 6px 12px 6px;
 }
 
 @font-face {
@@ -69,12 +47,9 @@ input[type=reset], select {
   src: url(../amsterdam-two-ttf.ttf);
 }
 
-/*default styles below*/
-
-
 .mainlogo {
   display: block;
-  margin: 0 0 0 5rem;
+  margin-left: 5rem;
   padding-bottom: 0;
   height: 8rem;
   width: auto;
@@ -82,7 +57,6 @@ input[type=reset], select {
 
 .navbar, .navbar-brand {
   padding: 0;
-  background-color: white;
 }
 
 .navbar-nav {
@@ -121,6 +95,34 @@ a {
 .social-fb {
   height: 2rem;
   width: auto;
+}
+
+.button-more {
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-family: 'Glacial Indifference', sans-serif;
+  color: black;
+  padding: 5px 30px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit], select, button {
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-family: 'Glacial Indifference', sans-serif;
+  color: black;
+  padding: 5px 25px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 
@@ -180,5 +182,4 @@ a {
 body {
   margin: 0;
   text-align: center;
-  background-color: #FEE3EC;
 }
