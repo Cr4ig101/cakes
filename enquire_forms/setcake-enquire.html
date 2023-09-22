@@ -72,62 +72,60 @@
   
  <div class="enquire-form">
    <div class="enquire-text">
-    <h1>Wedding Cake Enquiry Form</h1>
-    <p><br>If you could fill out the questions below this will help me to quote you and get the cakes just right for you. 
-      As soon as I receive the information I will be able to get to provide you with an estimated quote. 
-      If you are happy with this and would like to go ahead I will provide you with an invoice and a none refundable deposit of 50% 
-      is payable to see her your date. 
+    <h1>Set Cake Enquiry Form</h1>
+    <p><br>
+      Select from one of the pre designed cakes and submit your enquiry form. I will provide you with an invoice and a none 
+      refundable deposit of 50% 
+      is payable to keep your date.
       Please allow 72 hours for me to provide this to you.
       <br><br>
+      Tall cakes are made up of 4 layers of sponge layered with buttercream. 
+      <br>
+      <br>
+      Lemon Cake from £60<br>
+      Chocolate Drip Cake from £70<br>
+      Brownie Stack Cake from £80<br>
+      Water Colour Cake from £90<br>
+      <br>
+      Please note all my cakes are made using buttercream. I sometimes use fondant for small details but 
+      I do not cover or decorate my cakes with fondant.
+      <br>
       </p>
    </div>
   </div>
 
   <div class="background-container">
    <div class="container">
-     <form class="form" action="../contact-form.php" method="post">
+     <form class="form" action="contact-form.php" method="post">
       <p>Your Name</p>
       <input type="text" name="name">
       <p>Email Address</p>
       <input type="text" name="mail">
       <p>Contact Number</p>
       <input type="text" name="number">
-      <p>Enter the date of your wedding</p>
+      <p>Enter the date you want your cake to be made for</p>
       <input type="date" name="date">
       
-      <p><br>Wedding venue address<br></p>
+      <p><br>Do you require delivery of the cake?<br> Yes <input type="checkbox" name="delivery-yes" placeholder=""> No <input type="checkbox" name="delivery-no" placeholder=""> </p>
+      <p>If yes, please enter your delivery address</p>
       <textarea name="address" placeholder=""></textarea>
       
-      <p>Number of the tiers you would like
-      <br>
-      <input type="number" name="tiers"> 
+      <p>Cake size or number of portions you would like
+      <br> 
+        <input type="checkbox" name="4inch"> 4 inch serves 8-12,<br>
+        <input type="checkbox" name="5inch"> 5 inch serves 18,<br>
+        <input type="checkbox" name="6inch"> 6 inch serves 24,<br>
+        <input type="checkbox" name="8inch"> 8 inch serves 40<br>
       </p>
       
-      <p><br>Cake flavour<br>
-      <input type="checkbox" name="4inch">Vanilla<br>
-      <input type="checkbox" name="4inch">Chocolate<br>
-      <input type="checkbox" name="4inch">Lemon<br>
-      <input type="checkbox" name="4inch">Coffee<br>
-      <input type="checkbox" name="4inch">Cookies and cream<br>
-      <input type="checkbox" name="4inch">Salted caramel<br>
-      <input type="checkbox" name="4inch">White chocolate and raspberry<br>
-      <input type="checkbox" name="4inch">Red velvet<br>
+      <p><br>Cake Selection<br>
+      <input type="checkbox" name="lemon">Lemon<br>
+      <input type="checkbox" name="drip">Chocolate Drip<br>
+      <input type="checkbox" name="brownie">Brownie Stack<br>
+      <input type="checkbox" name="water">Water Color<br>
       </p>
-      <hr class="solid">
-      <p>Colour scheme and brief of what you require:</p>
-      <textarea name="brief"></textarea>
-      <p>Additional extras<br>
-        <input type="checkbox" name="sprinkles">Sprinkles<br>
-        <input type="checkbox" name="chocolates">Chocolates<br>
-        <input type="checkbox" name="sweets">Sweets<br>
-        <input type="checkbox" name="flowers">Flowers<br>
-        <input type="checkbox" name="fruit">Fruit<br>
-        <input type="checkbox" name="figure">Figures<br>
-        <input type="checkbox" name="topper">Cake toppers<br>
-        <input type="checkbox" name="topper">Other<br>
-        <input type="text" name="name">
-      </p>
-      <p>Allergies or intolerances</p>
+      <br>
+      <p>Allergies or intolerances?</p>
       <textarea name="message"></textarea>
       <br>
       <br>
@@ -151,7 +149,7 @@
     <a href="https://www.facebook.com/cakesbyvictoriamarie/" target="_blank">
       <img class="social-fb-footer" src="../images/facebook.png" alt="FB">
     </a>
-    <a href="https://www.instagram.com/cakesbyvictoriamarie/?hl=en" target="_blank">
+    <a href="https://www.instagram.com/cakesbyvictoriamarie/?hl=en">
       <img class="social-inst-footer" src="../images/instagram.png" alt="INST">
     </a>
     <p class="copyright">copyright @ CakesByVictoriaMarie</p>

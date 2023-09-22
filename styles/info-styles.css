@@ -1,20 +1,3 @@
-.carousel_slide {
-  width: 50%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.carousel_slide p {
-  font-family: logo-name-font;
-  float: left;
-  font-size: 3rem;
-}
-
-.carousel-control-prev {
-  top: 50rem;
-}
-
 .info-background {
   background-color: #F9C5D5;
 }
@@ -24,6 +7,27 @@
   font-size: 5rem;
   padding: 5rem 0;
  }
+
+.row {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+.header-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+}
+
+.header {
+  font-family: logo-name-font;
+  font-size: 3rem;
+  text-align: left;
+}
 
 @font-face {
   font-family: logo-name-font;
@@ -39,10 +43,6 @@
 }
 
 .nav-background {
-/*  background-image: url("../images/pink_stripe.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #FFC0D9;*/
   background-color: #FFFAF4;
   height: 8rem;
 }

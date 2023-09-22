@@ -1,5 +1,7 @@
 .background {
   background-color: white;
+  position: relative;
+  padding-bottom: 2rem;
 }
 
 .background-image {
@@ -8,43 +10,55 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  opacity: 1;
   padding-top: 1rem;
 }
 
 .wedding-header {
-  position: relative;
-  bottom: 40rem;
-  left: 30rem;
+  position: absolute;
+  top: 20%;
+  left: 35%;
   color: black;
   font-family: logo-name-font;
-  font-size: 7rem;
-  display: inline-block;
+  font-size: 7vw;
 }
 
 .wedding-txt {
   width: 30%;
-  position: relative;
-  bottom: 24rem;
+  position: absolute;
+  top: 50%;
+  left: 55%;
   color: black;
   font-weight: 400;
-  font-size: 1.5rem;
-  display: inline-block;
+  font-size: 1.5vw;
 }
 
 .button-enquire {
   background-color: transparent;
-  font-size: 1.5rem;
+  font-size: 2vw;
   font-family: 'Glacial Indifference', sans-serif;
   font-weight: 400;
   color: black;
   padding: 5px 36px;
   border: 1px solid black;
   cursor: pointer;
-  position: relative;
-  bottom: 18rem;
+  position: absolute;
+  top: 70%;
+  left: 65%;
   display: inline-block;
-  right: 20rem;
+}
+
+.button-enquire:hover {
+  background-color: white;
+  font-size: 2vw;
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 400;
+  color: black;
+  padding: 5px 36px;
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  display: inline-block;
 }
 
 @font-face {
@@ -102,20 +116,6 @@ a {
   width: auto;
 }
 
-
-.button-more {
-  background-color: transparent;
-  font-size: 1.5rem;
-  font-family: 'Glacial Indifference', sans-serif;
-  color: black;
-  padding: 5px 30px;
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-
-
-
 .background-container {
   background-color: white;
 }
@@ -138,20 +138,6 @@ a {
   text-align: left;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
- /* font-family: 'Glacial Indifference', sans-serif;*/
- /* font-size: 1.5rem;*/
-  width: 100%; /* Full width */
- /* padding: 12px; /* Some padding */
- /* border: 1px solid #ccc; /* Gray border */
- /* border-radius: 4px; /* Rounded borders */
- /* box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
 input[type=submit], select, button {
   background-color: transparent;
   font-size: 1.5rem;
@@ -159,6 +145,16 @@ input[type=submit], select, button {
   color: black;
   padding: 5px 25px;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+input[type=submit], select:hover, button:hover {
+  background-color: #FEE3EC;
+  font-size: 1.5rem;
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 400;
+  color: black;
+  padding: 5px 36px;
   cursor: pointer;
 }
 
