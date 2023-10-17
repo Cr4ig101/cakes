@@ -3,12 +3,22 @@
   src: url(../amsterdam-two-ttf.ttf);
 }
 
-.cakes-page {
+.cakes-page, .cake-info {
   background-color: #F9C5D5;
 }
 
+.cake-info p {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 .img-box {
-  padding: 1rem 0 0;
+  padding: 1rem 0 5rem;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -24,6 +34,7 @@ h1 {
   font-family: logo-name-font;
   padding: 3rem 0;
   margin: 0;
+  font-size: 3rem;
 }
 
 .cake-img {
