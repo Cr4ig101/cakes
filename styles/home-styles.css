@@ -132,7 +132,7 @@ a {
   font-size: 71px;
 }
 
-.col-lg-6, .col-md-12 .col-sm-12 {
+.col-lg-6, .col-sm-12 {
   padding: 0;
 }
 
@@ -279,11 +279,36 @@ body {
     font-size: 30px;
   }
   .dropdown-menu {
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
+    background-color: lightgray;
+  }
+  .dropdown-item {
+    padding: 10px 0;
   }
   .navbar-toggler-icon {
     width: 3.5rem;
     height: 3.5rem;
+  }
+  .box-txt {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    font-size: 35px;
+  }
+  .box-h-1, .box-h-2, .box-h-3, .box-h-4, .box-h-5 {
+    font-size: 90px;
+  } 
+  .box {
+    margin: 10% 15%;
+  }
+  .social-inst-li, .social-fb-li {
+    display: none;
+  }
+  .contact {
+    font-size: 4rem;
+    padding-top: 2rem;
+  }
+  input[type=submit], select, button {
+    font-size: 2rem;
   }
 }
