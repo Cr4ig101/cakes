@@ -102,7 +102,6 @@ a {
   width: auto;
 }
 
-
 .button-more {
   background-color: transparent;
   font-size: 1.5rem;
@@ -123,7 +122,6 @@ a {
   cursor: pointer;
   box-shadow: 0px 0px 0px 1px black
 }
-
 
 .background-container {
   background-color: white;
@@ -147,20 +145,6 @@ a {
   text-align: left;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
- /* font-family: 'Glacial Indifference', sans-serif;*/
- /* font-size: 1.5rem;*/
-  width: 100%; /* Full width */
- /* padding: 12px; /* Some padding */
- /* border: 1px solid #ccc; /* Gray border */
- /* border-radius: 4px; /* Rounded borders */
- /* box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
 input[type=submit], select, button {
   background-color: transparent;
   font-size: 1.5rem;
@@ -181,7 +165,6 @@ input[type=reset], select {
   border-radius: 4px;
   cursor: pointer;
 }
-
 
 .review {
   background-color: #FEE3EC;
@@ -239,4 +222,44 @@ input[type=reset], select {
 body {
   margin: 0;
   text-align: center;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+  .mainlogo {
+    height: 12rem;
+    width: auto;
+  }
+  .navbar-nav {
+    font-size: 30px;
+  }
+  .dropdown-menu {
+    font-size: 30px;
+    text-align: center;
+    background-color: lightgray;
+  }
+  .dropdown-item {
+    padding: 10px 0;
+  }
+  input[type=submit], select, button {
+    font-size: 2rem;
+  }
+  .navbar-toggler-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .social-inst-li, .social-fb-li {
+    display: none;
+  }
+  .cakes-page h1 {
+    font-size: 5rem;
+  }
+  .cakes-page {
+    padding: 2rem 0;
+  }
+  .cake-info p {
+    font-size: 40px;
+    width: 90%;
+  }
 }

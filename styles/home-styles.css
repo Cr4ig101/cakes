@@ -83,15 +83,15 @@ a {
 
 
 .text-block-4 {
-  background-color: #FDEBED;
+  background-color: #FDECF3;
 }
 
 .text-block-5 {
-  background-color: #F9C5D5; /* #FFC0D9; */
+  background-color: #FFDFEC; /* #FFC0D9; */
 }
 
 .text-block-3 {
-  background-color: #FFC7EA;
+  background-color: #FFCFE2;
 }
 
 .text-block-2 {
@@ -99,7 +99,7 @@ a {
 }
 
 .text-block-1 {
-  background-color: #F999B7;
+  background-color: #FFB0D0;
 }
 
 .box-image {
@@ -157,17 +157,16 @@ a {
   box-shadow: 0px 0px 0px 1px black
 }
 
-/*
+
 .banner-button {
   background-color: transparent;
   font-size: 1.5rem;
   font-family: 'Glacial Indifference', sans-serif;
-  color: black;
   padding: 5px 36px;
-  border: 1px solid black;
+  border: 1px solid yellow;
   cursor: pointer;
 }
-*/
+
 
 .background-container {
   background-color: #F9C5D5;
@@ -281,7 +280,7 @@ body {
   .dropdown-menu {
     font-size: 30px;
     text-align: center;
-    background-color: lightgray;
+    background-color: #FFCFE2;
   }
   .dropdown-item {
     padding: 10px 0;
@@ -293,13 +292,13 @@ body {
   .box-txt {
     margin-top: 6rem;
     margin-bottom: 3rem;
-    font-size: 35px;
+    font-size: 40px;
   }
   .box-h-1, .box-h-2, .box-h-3, .box-h-4, .box-h-5 {
     font-size: 90px;
   } 
   .box {
-    margin: 10% 15%;
+    margin: 10% 5%;
   }
   .social-inst-li, .social-fb-li {
     display: none;
