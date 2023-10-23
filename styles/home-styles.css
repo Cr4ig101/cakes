@@ -2,7 +2,7 @@
   font-family: logo-name-font;
   src: url(../amsterdam-two-ttf.ttf);
 }
-
+/* main logo */
 .mainlogo {
   display: block;
   margin-left: 5rem;
@@ -10,109 +10,82 @@
   height: 8rem;
   width: auto;
 }
-
+/*removes padding from logo*/
 .navbar, .navbar-brand {
   padding: 0;
 }
-
+/*Font soze of the nav items*/
 .navbar-nav {
   font-size: 18px;
 }
-
+/*Padding aroudn the nav items*/
 .navbar-nav li {
   padding: 1rem;
 }
-
+/*Change color of the title items*/
 a:hover {
   color: grey;
 }
-
+/*color of the navbar items*/
 a {
   color: black;
 }
-
+/*Social images*/
 .social-inst-li {
   position: absolute;
   left: 92%;
   top: 1rem;
 }
-
+/*Social images*/
 .social-inst {
   height: 2rem;
   width: auto;
 }
-
+/*Social images*/
 .social-fb-li {
   position: absolute;
   left: 95%;
   top: 1rem;
 }
-
+/*Social images*/
 .social-fb {
   height: 2rem;
   width: auto;
 }
 
-/*
-.banner p {
-  font-size: 2rem;
-  padding-top: 2rem;
-  height: 8rem;
-  font-family: logo-name-font;
-}
 
-
-.banner-button {
-  position: absolute;
-  right: 18rem;
-  top: 1rem;
-}
-*/
-
-.banner-txt {
-  position: absolute;
-  font-size: 2rem;
-  font-family: 'Glacial Indifference', sans-serif;
-}
-
-
-
-/* Start of the box's 
-   vics color
-*/
-
-
+/* Start of the box's */
 .text-block-4 {
   background-color: #FDECF3;
 }
-
+/**/
 .text-block-5 {
   background-color: #FFDFEC; /* #FFC0D9; */
 }
-
+/**/
 .text-block-3 {
   background-color: #FFCFE2;
 }
-
+/**/
 .text-block-2 {
   background-color: #FFC0D9;
 }
-
+/**/
 .text-block-1 {
   background-color: #FFB0D0;
 }
-
+/**/
 .box-image {
   margin: 0;
   object-fit: cover;
 }
-
+/**/
 .box {
   margin-top: 20%;
   margin-left: 15%;
   margin-right: 15%;
 }
-
+/*text in the boxes*/
 .box-txt {
   margin-top: 6rem;
   color: black;
@@ -120,22 +93,22 @@ a {
   font-size: 20px;
   font-family: 'Glacial Indifference', sans-serif;
 }
-
+/*Header for each of the boxes*/
 .box-h-1, .box-h-2, .box-h-3, .box-h-4, .box-h-5 {
   color: black;
   font-size: 80px;
   text-align: center;
   font-family: logo-name-font;
 } 
-
+/*Override font size for Wedding Cakes to stop wrapping*/
 .box-h-4 {
   font-size: 71px;
 }
-
+/*Remove padding on the boxes*/
 .col-lg-6, .col-sm-12 {
   padding: 0;
 }
-
+/*Button Find out More*/
 .button-more {
   background-color: transparent;
   font-size: 1.5rem;
@@ -145,7 +118,7 @@ a {
   border: 1px solid black;
   cursor: pointer;
 }
-
+/*Enquire Now button*/
 .button-enquire {
   background-color: black;
   font-size: 1.5rem;
@@ -156,32 +129,21 @@ a {
   cursor: pointer;
   box-shadow: 0px 0px 0px 1px black
 }
-
-
-.banner-button {
-  background-color: transparent;
-  font-size: 1.5rem;
-  font-family: 'Glacial Indifference', sans-serif;
-  padding: 5px 36px;
-  border: 1px solid yellow;
-  cursor: pointer;
-}
-
-
+/**/
 .background-container {
   background-color: #F9C5D5;
 }
-
+/**/
 .container {
   padding: 3rem 0;
   background-color: inherit;
 }
-
+/**/
 .contact {
   font-family: logo-name-font;
   padding-bottom: 2rem;
 }
-
+/**/
 .form {
   width: 50%; 
   margin-left: auto;
@@ -207,7 +169,7 @@ input[type=submit], select, button {
   border: 1px solid black;
   cursor: pointer;
 }
-
+/**/
 .review {
   background-color: #FEE3EC;
   color: black;
@@ -215,7 +177,7 @@ input[type=submit], select, button {
   text-align: center;
   padding-top: 2rem;
 }
-
+/**/
 .ulist {
   list-style-type: none;
   margin: 0;
@@ -224,34 +186,34 @@ input[type=submit], select, button {
   background-color: #FEE3EC;
   color: black;
 }
-
+/**/
 .footer {
   background-color: #FEE3EC;
   padding: 1rem 0 3rem;
   position: relative;
   text-align: center;
 }
-
+/**/
 .social-fb-footer {
   height: 2rem;
   width: auto;
   padding-right: 1rem;
 }
-
+/**/
 .social-inst-footer {
   height: 2rem;
   width: auto;
   padding-left: 1rem;
 }
-
+/**/
 .social-inst-footer:hover {
   transform: scale(1.25);
 }
-
+/**/
 .social-fb-footer:hover {
   transform: scale(1.25);
 }
-
+/**/
 .copyright {
   font-size: 0.75rem;
   color: grey;
@@ -260,7 +222,7 @@ input[type=submit], select, button {
   bottom: 2px;
   margin-bottom: 0
 }
-
+/**/
 body {
   margin: 0;
   text-align: center;
@@ -270,6 +232,7 @@ body {
 
 
 @media only screen and (max-width: 990px) {
+/*Modify NavBar on small screen*/
   .mainlogo {
     height: 12rem;
     width: auto;
@@ -278,7 +241,7 @@ body {
     font-size: 30px;
   }
   .dropdown-menu {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     background-color: #FFCFE2;
   }
@@ -289,19 +252,34 @@ body {
     width: 3.5rem;
     height: 3.5rem;
   }
+  .navbar-toggler {
+    border: grey solid 2px;
+    margin-right: 2rem;
+  }
+  .social-inst-li, .social-fb-li {
+    display: none;
+  }
+/*End NavBar*/
   .box-txt {
     margin-top: 6rem;
     margin-bottom: 3rem;
     font-size: 40px;
+    font-family: avenir-lt-w01_35-light1475496,sans-serif;
   }
   .box-h-1, .box-h-2, .box-h-3, .box-h-4, .box-h-5 {
-    font-size: 90px;
+    font-size: 100px;
   } 
   .box {
     margin: 10% 5%;
   }
-  .social-inst-li, .social-fb-li {
-    display: none;
+  .button-more {
+    font-size: 2.5rem;
+    padding: 5px 30px;
+  }
+  .button-enquire {
+    margin: 1rem;
+    font-size: 2.5rem;
+    padding: 5px 42px;
   }
   .contact {
     font-size: 4rem;
