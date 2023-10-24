@@ -227,3 +227,34 @@ body {
   margin: 0;
   text-align: center;
 }
+
+
+@media only screen and (max-width: 990px) {
+  /*Modify NavBar on small screen*/
+    .mainlogo {
+      height: 12rem;
+      width: auto;
+    }
+    .navbar-nav {
+      font-size: 30px;
+    }
+    .dropdown-menu {
+      font-size: 35px;
+      text-align: center;
+      background-color: #FFCFE2;
+    }
+    .dropdown-item {
+      padding: 10px 0;
+    }
+    .navbar-toggler-icon {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+    .navbar-toggler {
+      border: grey solid 2px;
+      margin-right: 2rem;
+    }
+    .social-inst-li, .social-fb-li {
+      display: none;
+    }
+  /*End NavBar*/

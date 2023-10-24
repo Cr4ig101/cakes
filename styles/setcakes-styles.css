@@ -18,10 +18,10 @@
   width: 80%;
   margin: auto auto;
 }
-
+/*Enquire Now Button under the images*/
 .button-enquire {
   background-color: black;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Glacial Indifference', sans-serif;
   color: white;
   padding: 5px 36px;
@@ -36,7 +36,25 @@
 }
 
 .img-box {
-  padding: 12px 6px 12px 6px;
+  padding: 6px 3px;
+}
+
+.txt-box h1 {
+  font-family: logo-name-font;
+  font-size: 2.5rem;
+  padding: 2.5rem 0 1.5rem;
+}
+
+.txt-box p {
+  font-size: 18px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem 0;
+}
+
+.cake-image {
+  object-fit: contain;
 }
 
 @font-face {
@@ -192,11 +210,21 @@ body {
   .title-box p {
     font-size: 40px;
     font-family: avenir-lt-w01_35-light1475496,sans-serif;
+    padding: 6rem 0;
   }
   .title-img {
     display: none;
   }
   .img-box {
     padding: 6px;
+  } 
+  .txt-box h1 {
+    font-size: 4.5rem;
+    padding: 5rem 0 1.5rem;
   }
+  .txt-box p {
+    font-size: 35px;
+    width: 90%;
+    padding: 3rem 0;
+}
 }
