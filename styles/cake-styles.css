@@ -23,13 +23,6 @@
   margin-bottom: auto;
 }
 
-.img-txt-box {
-  padding-top: 2rem;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h1 {
   font-family: logo-name-font;
   padding: 3rem 0;
@@ -265,5 +258,13 @@ body {
   .cake-info p {
     font-size: 40px;
     width: 90%;
+  }
+  .cake-img {
+    height: 550px;
+    width: 470px;
+    border: #FFFAF4 1rem solid;
+  }
+  .img-box {
+    padding: 1rem 0 3rem;
   }
 }
