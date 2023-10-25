@@ -19,7 +19,7 @@
   margin: auto auto;
 }
 
-.title-img {
+.title-img, .col-lg-5 {
   padding: 0;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .img-box {
-  padding: 12px 6px 12px 6px;
+  padding: 12px 6px;
 }
 
 @font-face {

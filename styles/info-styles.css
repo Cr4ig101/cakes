@@ -9,12 +9,13 @@
  }
 
 .row {
-  width: 85%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2rem;
 }
 
+/*
 .header-div {
   margin-left: auto;
   margin-right: auto;
@@ -28,6 +29,7 @@
   font-size: 3rem;
   text-align: left;
 }
+*/
 
 @font-face {
   font-family: logo-name-font;
@@ -258,3 +260,7 @@ body {
       display: none;
     }
   /*End NavBar*/
+    .col-sm-12 {
+      padding-bottom: 2rem;
+    }
+}

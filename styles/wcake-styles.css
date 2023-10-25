@@ -257,4 +257,32 @@ body {
     .social-inst-li, .social-fb-li {
       display: none;
     }
-  /*End NavBar*/
+    /*End NavBar*/
+    .background-image {
+      width: 100%;
+      opacity: 0.8;
+    }
+    .row {
+      margin: 0;
+    }
+    .wedding-header {
+      font-size: 8vw;
+    }
+    .wedding-txt {
+      width: 50%;
+      left: 45%;
+      font-weight: 500;
+      font-size: 3vw;
+    }
+    .button-enquire {
+      font-size: 3vw;
+      top: 82%;
+      left: 59%;
+    }
+    .button-enquire:hover {
+      display: none;
+    }
+    .img-box {
+      padding-bottom: 12px;
+    }
+}
